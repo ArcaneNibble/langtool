@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Language card duct tape</title>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<form id="searchform">
+			Find: <input type="text" id="searchbox">
+		</form>
+		<hr>
+		<table>
+			<tr>
+				<th>S</th>
+				<th>T</th>
+				<th>拼音</th>
+				<th>粵拼</th>
+				<th>EN</th>
+			</tr>
+			<tr>
+				<td><select id="simp" size="8"></td>
+				<td><select id="trad" size="8"></td>
+				<td><select id="pinyin" size="8"></td>
+				<td><select id="jyutping" size="8"></td>
+				<td><select id="english" size="8"></td>
+			</tr>
+			<tr>
+				<td colspan="5">Custom definition: <input type="text" id="customenglish"></td>
+			</tr>
+			<tr>
+				<td colspan="5"><button id="gobutton">MAKE!</button></td>
+			</tr>
+		</table>
+	</body>
+</html>
